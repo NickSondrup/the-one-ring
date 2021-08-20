@@ -1,0 +1,51 @@
+@media(max-width: 991px){
+.disappear{
+  display: none;
+}
+
+}
+
+@media(min-width: 991px){
+  .spill-row{
+    position: relative;
+  }
+  .spill-card{ 
+    position: absolute;
+    right: 5rem;
+    top: 5rem;
+
+  }
+}
+
+.shield-text-title{
+  margin-top:1rem;
+  margin-left:1rem;
+  margin-right:1rem;
+}
+.shield-text-body{
+  margin-bottom:1rem;
+  margin-left:1rem;
+  margin-right:1rem;
+}
+@media(min-width: 991px){
+  .shield-text-title{
+    margin-top:10rem;
+    margin-left:10rem;
+    margin-right:10rem;
+  }
+  .shield-text-body{
+    margin-bottom:10rem;
+    margin-left:10rem;
+    margin-right:10rem;
+  }
+}
+
+.bg-img{
+  background-image: url("https://wallpapercave.com/wp/rHRQPiD.jpg");
+  background-size: cover;
+}
+
+img.title-img{
+max-height: 50px;
+max-width: 50px;
+}
