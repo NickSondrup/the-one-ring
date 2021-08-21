@@ -12,7 +12,7 @@
   .spill-card{ 
     position: absolute;
     right: 5rem;
-    top: 5rem;
+    top: 4rem;
 
   }
 }
@@ -40,6 +40,10 @@
   }
 }
 
+.padding-green{
+padding-left: green;
+}
+
 .bg-img{
   background-image: url("https://wallpapercave.com/wp/rHRQPiD.jpg");
   background-size: cover;
@@ -51,5 +55,14 @@ max-width: 50px;
 }
 
 .long-img{
-  
+ max-height: 600px;
+ 
+}
+
+.quote-card-small{
+  height: 175px;
+}
+
+.elvish-font{
+  font-family: 'Tangerine', cursive;
 }
