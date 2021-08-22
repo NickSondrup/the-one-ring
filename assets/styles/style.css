@@ -1,11 +1,11 @@
-@media(max-width: 991px){
+@media(max-width: 767px){
 .disappear{
   display: none;
 }
 
 }
 
-@media(min-width: 991px){
+@media(min-width: 767px){
   .spill-row{
     position: relative;
   }
@@ -13,31 +13,15 @@
     position: absolute;
     right: 5rem;
     top: 4rem;
+    box-shadow: 0 1rem 3rem black;
+    border-radius: .25em !important;
   }
+}
+.bg-green{
+  background-color: #0b492c;
 }
 
-.shield-text-title{
-  margin-top:1rem;
-  margin-left:1rem;
-  margin-right:1rem;
-}
-.shield-text-body{
-  margin-bottom:1rem;
-  margin-left:1rem;
-  margin-right:1rem;
-}
-@media(min-width: 991px){
-  .shield-text-title{
-    margin-top:10rem;
-    margin-left:10rem;
-    margin-right:10rem;
-  }
-  .shield-text-body{
-    margin-bottom:10rem;
-    margin-left:10rem;
-    margin-right:10rem;
-  }
-}
+
 
 .padding-green{
 padding-left: green;
