@@ -2,10 +2,12 @@
 .disappear{
   display: none;
 }
-
+}
+button:hover{
+background-color: #179158;
 }
 
-@media(min-width: 767px){
+@media(min-width: 768px){
   .spill-row{
     position: relative;
   }
@@ -39,12 +41,9 @@ max-width: 50px;
 
 .long-img{
  max-height: 600px;
- 
 }
 
-.quote-card-small{
-  height: 175px;
-}
+
 
 .elvish-font{
   font-family: 'Tangerine', cursive;
